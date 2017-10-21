@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'uknumberplate';
+    src: url('uknumberplate-webfont.woff2') format('woff2'),
+         url('uknumberplate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UKNumberPlateEditor{
+    font-family: 'uknumberplate';
+    font-size: 50px;
+    text-align: center;
+    background: url('eu-part.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: #ffcc00;
+    padding: 8px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    width: 215px;
+    padding-left: 25px;
+}
